@@ -22,8 +22,6 @@
 [![Maintenance](https://img.shields.io/badge/maintained-YES-00ff00?style=flat-square)](https://github.com/paundrapf/BUG-HUNTER-TOOLS)
 [![Tools](https://img.shields.io/badge/count-200%2B-ff00ff?style=flat-square)](https://github.com/paundrapf/BUG-HUNTER-TOOLS)
 
-&lt;/div&gt;
-
 ---
 
 ## ⚡ Criteria
