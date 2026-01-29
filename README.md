@@ -2,7 +2,7 @@
 
 ![Terminal Glitch](https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExdW12anZ4anZ4anZ4anZ4anZ4anZ4anZ4anZ4/26xBI73gWquCBBCDe/giphy.gif)
 
-# MODERN HACKING ARSENAL (2025-2026)
+# MODERN HACKING TOOLS (FOR BUG HUNTER) 2025-2026
 
 **Curated. Verified. Lethal.**
 *The complete collection of active hacking tools for the modern era.*
@@ -437,10 +437,6 @@ We don't do "abandonware". Everything here is:
 ---
 
 <div align="center">
-
-**[ 🗑️ DEPRECATED / DEAD ]**
-*We removed these because they are old:*
-`XSStrike` • `Sublist3r` • `Assetfinder` • `Wfuzz` • `Recon-ng` • `ScoutSuite` • `Mimikatz`
 
 <br/>
 
