@@ -587,13 +587,17 @@ We don't do "abandonware". Everything here is:
 
 ---
 
-&lt;div align="center"&gt;
+<div align="center">
 
-&lt;br/&gt;
+**[ 🗑️ DEPRECATED / DEAD ]**
+*We removed these because they are old:*
+`XSStrike` • `Sublist3r` • `Assetfinder` • `Wfuzz` • `Recon-ng` • `ScoutSuite` • `Mimikatz`
+
+<br/>
 
 **LEGAL DISCLAIMER**
-&lt;br/&gt;
+<br/>
 *This repository is for educational purposes and authorized security research only.*
 *Do not use these tools on systems you do not own or have permission to test.*
 
-&lt;/div&gt;
+</div>
