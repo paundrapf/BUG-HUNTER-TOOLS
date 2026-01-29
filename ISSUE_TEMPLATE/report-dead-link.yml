@@ -1,0 +1,20 @@
+name: 💀 Report Dead Link
+description: Report a tool that is deprecated, archived, or 404.
+title: "[DEAD] Tool Name"
+labels: ["bug", "maintenance"]
+body:
+  - type: input
+    id: tool-name
+    attributes:
+      label: Tool Name
+      placeholder: e.g., OldScanner
+    validations:
+      required: true
+
+  - type: textarea
+    id: reason
+    attributes:
+      label: What's wrong?
+      placeholder: Repo is archived / Returns 404 / Last update was 5 years ago.
+    validations:
+      required: true

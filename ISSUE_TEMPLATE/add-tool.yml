@@ -1,0 +1,60 @@
+name: 🛠️ Add New Tool
+description: Suggest a new tool for the arsenal.
+title: "[ADD] Tool Name"
+labels: ["enhancement", "new-tool"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for the suggestion. Make sure it's **active** (updated 2024-2026).
+
+  - type: input
+    id: tool-name
+    attributes:
+      label: Tool Name
+      placeholder: e.g., Nuclei
+    validations:
+      required: true
+
+  - type: input
+    id: tool-url
+    attributes:
+      label: GitHub URL
+      placeholder: https://github.com/projectdiscovery/nuclei
+    validations:
+      required: true
+
+  - type: input
+    id: description
+    attributes:
+      label: Brief Description
+      placeholder: Template-based vulnerability scanner.
+    validations:
+      required: true
+
+  - type: dropdown
+    id: category
+    attributes:
+      label: Category
+      options:
+        - Web App Security
+        - Network Security
+        - Cloud Security
+        - Mobile & IoT
+        - Red Team & C2
+        - Exploitation
+        - Forensics
+        - Other
+    validations:
+      required: true
+
+  - type: checkboxes
+    id: checks
+    attributes:
+      label: Vibe Check
+      description: Confirm the following before submitting.
+      options:
+        - label: The tool was updated in 2024, 2025, or 2026.
+          required: true
+        - label: I have searched the list and confirmed this is not a duplicate.
+          required: true
