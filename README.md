@@ -1,8 +1,17 @@
-&lt;p align="center"&gt;
-  &lt;img src="https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExdW12anZ4anZ4anZ4anZ4anZ4anZ4anZ4anZ4/26xBI73gWquCBBCDe/giphy.gif" alt="Terminal Glitch"&gt;
-&lt;/p&gt;
+<div align="center">
 
-&lt;div align="center"&gt;
+![Terminal Glitch](https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExdW12anZ4anZ4anZ4anZ4anZ4anZ4anZ4anZ4/26xBI73gWquCBBCDe/giphy.gif)
+
+# MODERN HACKING ARSENAL (2025-2026)
+
+**Curated. Verified. Lethal.**
+*The complete collection of active hacking tools for the modern era.*
+
+[![License](https://img.shields.io/badge/license-MIT-black?style=flat-square)](LICENSE)
+[![Maintenance](https://img.shields.io/badge/maintained-YES-00ff00?style=flat-square)](https://github.com/yourusername/repo)
+[![Tools](https://img.shields.io/badge/count-200%2B-ff00ff?style=flat-square)](https://github.com/yourusername/repo)
+
+</div>
 
 # MODERN HACKING TOOLS (FOR BUG HUNTER) 2025-2026
 
