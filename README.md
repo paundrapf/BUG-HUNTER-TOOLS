@@ -1,4 +1,4 @@
-&lt;div align="center"&gt;
+<div align="center">
 
 ![Terminal Glitch](https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExdW12anZ4anZ4anZ4anZ4anZ4anZ4anZ4anZ4/26xBI73gWquCBBCDe/giphy.gif)
 
@@ -11,14 +11,14 @@
 [![Maintenance](https://img.shields.io/badge/maintained-YES-00ff00?style=flat-square)](https://github.com/paundrapf/BUG-HUNTER-TOOLS)
 [![Tools](https://img.shields.io/badge/count-200%2B-ff00ff?style=flat-square)](https://github.com/paundrapf/BUG-HUNTER-TOOLS)
 
-&lt;/div&gt;
+</div>
 
 ---
 
 ## ⚡ Criteria
 We don't do "abandonware". Everything here is:
 1.  **Active:** Last commit 2024-2026.
-2.  **Functional:** No critical bugs ignored for &gt;6 months.
+2.  **Functional:** No critical bugs ignored for >6 months.
 3.  **Modern:** Works with current stacks (Cloud, K8s, Web3).
 
 ---
@@ -50,14 +50,13 @@ We don't do "abandonware". Everything here is:
 *   [Steganography](#-steganography)
 *   [Malware Analysis](#-malware-analysis)
 *   [Threat Intel](#-threat-intelligence)
-*   [VPN/Proxy & Anonymity](#-vpnproxy--anonymity)
-*   [Log Analysis & SIEM](#-log-analysis--siem)
+*   [VPN & Anonymity](#-vpnproxy--anonymity)
+*   [Log Analysis](#-log-analysis--siem)
 *   [Reporting](#-pentest-reporting)
 *   [AI/ML Security](#-aiml-security)
-*   [Reverse Shell & Webshell](#-reverse-shell--webshell)
+*   [Shells](#-reverse-shell--webshell)
 *   [Privilege Escalation](#-privilege-escalation)
 *   [Post-Exploitation](#-post-exploitation)
-*   [Resources & Wordlists](#-resources--wordlists)
 
 ---
 
@@ -66,9 +65,9 @@ We don't do "abandonware". Everything here is:
 ### Scanners & Injection
 | Tool | Description | Status |
 | :--- | :--- | :--- |
-| **[DalFox](https://github.com/hahwul/dalfox)** | XSS scanner & parameter analyzer (Go). | Jan 2026 |
+| **[DalFox](https://github.com/hahwul/dalfox)** | XSS scanner & parameter analyzer (Go). | Active |
 | **[FinDOM-XSS](https://github.com/dwisiswant0/findom-xss)** | Fast DOM-based XSS finder. | Active |
-| **[SQLMap](https://github.com/sqlmapproject/sqlmap)** | Automatic SQL injection tool. | Jan 2025 |
+| **[SQLMap](https://github.com/sqlmapproject/sqlmap)** | Automatic SQL injection tool. | 2025 |
 | **[Commix](https://github.com/commixproject/commix)** | Command injection exploitation. | Active |
 | **[SSRF-Scanner](https://github.com/Dancas93/SSRF-Scanner)** | Comprehensive SSRF scanner. | Active |
 | **[LFIHunt](https://github.com/Chocapikk/LFIHunt)** | LFI scanner & exploitation. | Active |
@@ -152,10 +151,10 @@ We don't do "abandonware". Everything here is:
 | Tool | Description | Status |
 | :--- | :--- | :--- |
 | **[Prowler](https://github.com/prowler-cloud/prowler)** | AWS security best practices. | Dec 2025 |
-| **[CloudBrute](https://github.com/0xsha/CloudBrute)** | Cloud infrastructure enumeration (AWS/GCS/Azure). | Active |
+| **[CloudBrute](https://github.com/0xsha/CloudBrute)** | Cloud infrastructure enumeration. | Active |
 | **[Pacu](https://github.com/RhinoSecurityLabs/pacu)** | AWS exploitation framework. | Active |
-| **[PMapper](https://github.com/nccgroup/PMapper)** | AWS IAM privilege escalation finder. | Active |
-| **[S3Scanner](https://github.com/sa7mon/S3Scanner)** | S3 bucket discovery & testing. | Active |
+| **[PMapper](https://github.com/nccgroup/PMapper)** | AWS IAM privilege escalation. | Active |
+| **[S3Scanner](https://github.com/sa7mon/S3Scanner)** | S3 bucket discovery. | Active |
 
 ---
 
@@ -179,10 +178,9 @@ We don't do "abandonware". Everything here is:
 | :--- | :--- | :--- |
 | **[theHarvester](https://github.com/laramies/theHarvester)** | Email/subdomain harvester. | Dec 2025 |
 | **[SpiderFoot](https://github.com/smicallef/spiderfoot)** | OSINT automation platform. | Active |
-| **[Amass](https://github.com/owasp-amass/amass)** | Attack surface mapping. | Sep 2025 |
 | **[Shodan](https://github.com/achillean/shodan-python)** | IoT search engine library. | Active |
 | **[Sherlock](https://github.com/sherlock-project/sherlock)** | Social media account hunter. | Active |
-| **[Holehe](https://github.com/megadose/holehe)** | Check if email is attached to social media. | Active |
+| **[Holehe](https://github.com/megadose/holehe)** | Email to social media checker. | Active |
 
 ---
 
@@ -218,7 +216,6 @@ We don't do "abandonware". Everything here is:
 | **[HTTPX](https://github.com/projectdiscovery/httpx)** | Multi-purpose HTTP toolkit. | Jan 2026 |
 | **[Notify](https://github.com/projectdiscovery/notify)** | Notification framework. | Active |
 | **[Interactsh](https://github.com/projectdiscovery/interactsh)** | OOB interaction server/client. | Active |
-| **[Katana](https://github.com/projectdiscovery/katana)** | Web crawler for automation. | Active |
 | **[Chaos](https://github.com/projectdiscovery/chaos-client)** | DNS recon platform. | Active |
 | **[Uncover](https://github.com/projectdiscovery/uncover)** | Search engine host discovery. | Active |
 | **[CVEMap](https://github.com/projectdiscovery/cvemap)** | CVE navigator. | Active |
@@ -238,7 +235,6 @@ We don't do "abandonware". Everything here is:
 | **[Gosec](https://github.com/securego/gosec)** | Golang security checker. | Active |
 | **[GitLeaks](https://github.com/gitleaks/gitleaks)** | Detect hardcoded secrets. | Nov 2025 |
 | **[TruffleHog](https://github.com/trufflesecurity/trufflehog)** | Find creds in Git repos. | Dec 2025 |
-| **[Trivy](https://github.com/aquasecurity/trivy)** | Container, Git repo, IaC scanner. | Dec 2025 |
 | **[Kics](https://github.com/Checkmarx/kics)** | IaC vulnerability scanner. | Active |
 | **[TFSec](https://github.com/aquasecurity/tfsec)** | Terraform code scanner. | Active |
 
@@ -273,13 +269,10 @@ We don't do "abandonware". Everything here is:
 | :--- | :--- | :--- |
 | **[BloodHound](https://github.com/SpecterOps/BloodHound)** | AD attack path analysis. | Dec 2025 |
 | **[SharpHound](https://github.com/BloodHoundAD/SharpHound)** | BloodHound C# ingestor. | Active |
-| **[BloodHound.py](https://github.com/fox-it/BloodHound.py)** | Python-based ingestor for BloodHound. | Active |
-| **[CrackMapExec](https://github.com/byt3bl33d3r/CrackMapExec)** | Network Swiss Army knife for AD. | Active |
-| **[Impacket](https://github.com/fortra/impacket)** | Python classes for network protocols. | Oct 2025 |
-| **[Responder](https://github.com/lgandx/Responder)** | LLMNR, NBT-NS, MDNS poisoner. | Active |
+| **[Responder](https://github.com/lgandx/Responder)** | LLMNR/NBT-NS poisoner. | Active |
 | **[Kerbrute](https://github.com/ropnop/kerbrute)** | Kerberos bruteforce. | Active |
 | **[Rubeus](https://github.com/GhostPack/Rubeus)** | Raw Kerberos interaction. | Active |
-| **[Certipy](https://github.com/ly4k/Certipy)** | AD Certificate Services abuse. | Active |
+| **[Certipy](https://github.com/ly4k/Certipy)** | AD CS abuse tool. | Active |
 | **[PetitPotam](https://github.com/topotam/PetitPotam)** | Coerce auth attacks. | Active |
 
 ---
@@ -295,113 +288,55 @@ We don't do "abandonware". Everything here is:
 | **[Medusa](https://github.com/crytic/medusa)** | Parallelized fuzzer. | Active |
 | **[Foundry](https://github.com/foundry-rs/foundry)** | Ethereum dev framework. | Jan 2026 |
 | **[Hardhat](https://github.com/NomicFoundation/hardhat)** | Ethereum dev environment. | Active |
-| **[Eth Security Toolbox](https://github.com/trailofbits/eth-security-toolbox)** | Docker container with Trail of Bits tools. | Active |
-| **[Building Secure Contracts](https://github.com/crytic/building-secure-contracts)** | Guidelines and training materials. | Active |
-| **[fuzz-utils](https://github.com/crytic/fuzz-utils)** | Generate Foundry tests from fuzzer corpus. | Active |
 
 ---
 
 ## 📟 IoT Security
 
-### Firmware Analysis
 | Tool | Description | Status |
 | :--- | :--- | :--- |
 | **[Binwalk](https://github.com/ReFirmLabs/binwalk)** | Firmware extractor. | Oct 2024 |
 | **[FACT_core](https://github.com/fkie-cad/FACT_core)** | Firmware comparison tool. | Active |
 | **[Firmadyne](https://github.com/attify/firmware-analysis-toolkit)** | Firmware emulation. | Active |
-| **[EMBA](https://github.com/e-m-b-a/emba)** | Firmware security analyzer. | Active |
-| **[EMBArk](https://github.com/e-m-b-a/embark)** | Enterprise firmware scanning environment. | Active |
+| **[EMBA](https://github.com/e-m-b-a/emba)** | Security analyzer. | Active |
 | **[Unblob](https://github.com/onekey-sec/unblob)** | Modern extraction suite. | Active |
-| **[Firmwalker](https://github.com/craigz28/firmwalker)** | Script for firmware analysis. | Active |
-
-### IoT Penetration Testing
-| Tool | Description | Status |
-| :--- | :--- | :--- |
 | **[PENIOT](https://github.com/yakuza8/peniot)** | IoT penetration tester. | Active |
-| **[IoTGoat](https://github.com/OWASP/IoTGoat)** | Deliberately insecure IoT firmware. | Active |
 
 ---
 
 ## 📡 Wireless Security
 
-### WiFi Security
 | Tool | Description | Status |
 | :--- | :--- | :--- |
 | **[Aircrack-ng](https://github.com/aircrack-ng/aircrack-ng)** | WiFi auditing suite. | Active |
 | **[WiFi Scanner](https://github.com/RaheesAhmed/wifi_scanner)** | Rust-based scanner. | Apr 2025 |
-
-### Bluetooth Security
-| Tool | Description | Status |
-| :--- | :--- | :--- |
-| **[Blue-sec](https://github.com/irfan-sec/Blue-sec)** | Bluetooth hacking and security. | Nov 2025 |
-| **[Bluescan](https://github.com/DasSecurity-HatLab/bluescan)** | Powerful Bluetooth scanner. | Active |
-| **[btlescan](https://github.com/ztroop/btlescan)** | BTLE/Bluetooth Scanner. | Mar 2024 |
-| **[CaringCaribou](https://github.com/CaringCaribou/caringcaribou)** | Car security exploration for CAN bus. | Aug 2024 |
-
-### RFID/NFC Security
-| Tool | Description | Status |
-| :--- | :--- | :--- |
-| **[Proxmark3](https://github.com/RfidResearchGroup/proxmark3)** | Powerful general purpose RFID tool. | Sep 2025 |
-| **[ChameleonMini](https://github.com/emsec/ChameleonMini)** | Portable NFC security analysis tool. | Active |
-| **[ChameleonMini-rebooted](https://github.com/iceman1001/ChameleonMini-rebooted)** | Fork for RevE Rebooted hardware. | Active |
-
-### SDR (Software Defined Radio)
-| Tool | Description | Status |
-| :--- | :--- | :--- |
-| **[HackRF](https://github.com/greatscottgadgets/hackrf)** | SDR peripheral for transmission/reception. | Active |
-| **[RTL-SDR](https://github.com/osmocom/rtl-sdr)** | Cheap SDR receiver. | Active |
-| **[YardStick One](https://github.com/greatscottgadgets/yardstick)** | Sub-1 GHz wireless transceiver. | Active |
+| **[Blue-sec](https://github.com/irfan-sec/Blue-sec)** | Bluetooth hacking. | Nov 2025 |
+| **[Bluescan](https://github.com/DasSecurity-HatLab/bluescan)** | Bluetooth scanner. | Active |
+| **[Proxmark3](https://github.com/RfidResearchGroup/proxmark3)** | RFID analysis tool. | Sep 2025 |
+| **[HackRF](https://github.com/greatscottgadgets/hackrf)** | SDR peripheral. | Active |
 
 ---
 
 ## 🚗 Automotive Security
 
-### CAN Bus Tools
 | Tool | Description | Status |
 | :--- | :--- | :--- |
 | **[can-utils](https://github.com/linux-can/can-utils)** | Linux CAN utilities. | Active |
 | **[SavvyCAN](https://github.com/collin80/SavvyCAN)** | CAN bus analysis. | May 2025 |
-| **[CANalyzat0r](https://github.com/schutzwerk/CANalyzat0r)** | Security analysis for proprietary car protocols. | Active |
-| **[CaringCaribou](https://github.com/CaringCaribou/caringcaribou)** | Car security exploration for CAN bus. | Aug 2024 |
-| **[CANToolz](https://github.com/CANToolz/CANToolz)** | Black-box CAN network analysis. | Active |
-
-### Simulators
-| Tool | Description | Status |
-| :--- | :--- | :--- |
-| **[ICSim](https://github.com/zombieCraig/ICSim)** | Instrument Cluster Simulator. | Active |
-| **[UDSim](https://github.com/zombieCraig/UDSim)** | Unified Diagnostic Services Simulator. | Active |
-| **[GearGoat](https://github.com/ine-labs/GearGoat)** | Car Vulnerabilities Simulator. | May 2025 |
-
-### Car Hacking Toolkits
-| Tool | Description | Status |
-| :--- | :--- | :--- |
-| **[CarHackingTools](https://github.com/jgamblin/CarHackingTools)** | Collection of common car hacking tools. | Aug 2023 |
+| **[CaringCaribou](https://github.com/CaringCaribou/caringcaribou)** | Friendly car hacking tool. | Aug 2024 |
+| **[ICSim](https://github.com/zombieCraig/ICSim)** | Instrument Cluster Sim. | Active |
 | **[Carpunk](https://github.com/souravbaghz/Carpunk)** | CAN Injection Toolkit. | Active |
-
-### OBD-II Tools
-| Tool | Description | Status |
-| :--- | :--- | :--- |
-| **[python-OBD](https://github.com/brendan-w/python-OBD)** | Python module for OBD-II vehicle diagnostics. | Active |
-| **[SwiftOBD2](https://github.com/kkonteh97/SwiftOBD2)** | Swift OBD2 real-time vehicle diagnostics. | Feb 2024 |
 
 ---
 
 ## 🔧 Hardware Security
 
-### Hardware Analysis Tools
 | Tool | Description | Status |
 | :--- | :--- | :--- |
 | **[Bus Pirate](https://github.com/BusPirate/Bus_Pirate)** | Universal serial interface. | Active |
-| **[HydraBus](https://github.com/hydrabus/hydrabus)** | Open source multi-tool hardware. | Active |
-| **[Glasgow](https://github.com/GlasgowEmbedded/glasgow)** | Tool for exploring and debugging digital interfaces. | Active |
-| **[ChipWhisperer](https://github.com/newaetech/chipwhisperer)** | Side-channel attack tool. | Active |
-
-### JTAG/UART Tools
-| Tool | Description | Status |
-| :--- | :--- | :--- |
-| **[JTAGULATOR](https://github.com/grandideastudio/jtagulator)** | Detects JTAG pinouts fast. | Active |
-| **[Bus Blaster](https://github.com/BusPirate/Bus_Pirate)** | JTAG debugger. | Active |
-| **[OpenOCD](https://github.com/openocd-org/openocd)** | On-chip debugger. | Active |
+| **[HydraBus](https://github.com/hydrabus/hydrabus)** | Multi-tool hardware. | Active |
+| **[ChipWhisperer](https://github.com/newaetech/chipwhisperer)** | Side-channel attacks. | Active |
+| **[JTAGULATOR](https://github.com/grandideastudio/jtagulator)** | JTAG pinout detector. | Active |
 
 ---
 
@@ -413,34 +348,16 @@ We don't do "abandonware". Everything here is:
 | **[Havoc](https://github.com/HavocFramework/Havoc)** | Modern post-exploit C2. | Active |
 | **[Mythic](https://github.com/its-a-feature/Mythic)** | Multi-platform C2. | Active |
 | **[Covenant](https://github.com/cobbr/Covenant)** | .NET C2 framework. | Active |
-| **[HardHat C2](https://github.com/DragoQCC/CrucibleC2)** | Cross-platform C# C2 framework. | Active |
-| **[Exploration C2](https://github.com/maxDcb/C2TeamServer)** | Modular C2 framework (C++ TeamServer + Python Client). | Active |
 
 ---
 
 ## 🔍 Digital Forensics
 
-### Memory Forensics
 | Tool | Description | Status |
 | :--- | :--- | :--- |
-| **[Volatility3](https://github.com/volatilityfoundation/volatility3)** | Advanced memory forensics framework. | Active |
-| **[Volatility](https://github.com/volatilityfoundation/volatility)** | Volatile memory extraction utility (legacy). | Archived |
-
-### Disk Forensics
-| Tool | Description | Status |
-| :--- | :--- | :--- |
+| **[Volatility3](https://github.com/volatilityfoundation/volatility3)** | Memory forensics. | Active |
 | **[Autopsy](https://github.com/sleuthkit/autopsy)** | Digital forensics platform. | Active |
-| **[The Sleuth Kit](https://github.com/sleuthkit/sleuthkit)** | Library for disk forensics. | Active |
-
-### Incident Response
-| Tool | Description | Status |
-| :--- | :--- | :--- |
-| **[TheHive](https://github.com/TheHive-Project/TheHive)** | Security incident response platform. | Jul 2025 |
-| **[Cortex](https://github.com/TheHive-Project/Cortex)** | Observable analysis engine. | Nov 2025 |
-
-### Network Forensics
-| Tool | Description | Status |
-| :--- | :--- | :--- |
+| **[TheHive](https://github.com/TheHive-Project/TheHive)** | Incident response platform. | Jul 2025 |
 | **[Wireshark](https://github.com/wireshark/wireshark)** | Network protocol analyzer. | Active |
 | **[Zeek](https://github.com/zeek/zeek)** | Network security monitor. | Active |
 
@@ -460,63 +377,39 @@ We don't do "abandonware". Everything here is:
 | Tool | Description | Status |
 | :--- | :--- | :--- |
 | **[Steghide](https://github.com/StegHigh/steghide-bak)** | Hide data in image/audio. | Active |
-| **[Stegseek](https://github.com/RickdeJager/stegseek)** | Lightning fast steghide cracker. | Active |
-| **[zsteg](https://github.com/zed-0xff/zsteg)** | Detect hidden data in PNG/BMP. | Active |
-| **[stegoveritas](https://github.com/bannsec/stegoveritas)** | Automatic image steganography analysis. | Active |
-| **[OpenStego](https://github.com/syvaidya/openstego)** | Tool to hide/extract data from image. | Active |
-| **[imgconceal](https://github.com/tbpaolini/imgconceal)** | Steganography for JPEG/PNG/WebP. | Active |
+| **[Stegseek](https://github.com/RickdeJager/stegseek)** | Steghide cracker. | Active |
+| **[zsteg](https://github.com/zed-0xff/zsteg)** | Detect hidden data (PNG/BMP). | Active |
 
 ---
 
-## 🦠 Malware Analysis
+## 🦠 Malware Analysis & Threat Intel
 
 | Tool | Description | Status |
 | :--- | :--- | :--- |
-| **[Cuckoo3](https://github.com/cert-ee/cuckoo3)** | Automated malware analysis system. | Active |
-| **[YARA](https://github.com/VirusTotal/yara)** | Pattern matching for malware detection. | Active |
-| **[CAPEv2](https://github.com/kevoreilly/CAPEv2)** | Malware configuration and payload extraction. | Active |
+| **[Cuckoo3](https://github.com/cert-ee/cuckoo3)** | Automated analysis. | Active |
+| **[YARA](https://github.com/VirusTotal/yara)** | Pattern matching. | Active |
+| **[MISP](https://github.com/MISP/MISP)** | Threat sharing platform. | Active |
+| **[OpenCTI](https://github.com/OpenCTI-Platform/opencti)** | Threat intel platform. | Active |
 
 ---
 
-## 🎯 Threat Intelligence
-
-| Tool | Description | Status |
-| :--- | :--- | :--- |
-| **[MISP](https://github.com/MISP/MISP)** | Threat intelligence platform. | Active |
-| **[OpenCTI](https://github.com/OpenCTI-Platform/opencti)** | Open cyber threat intelligence platform. | Active |
-| **[YETI](https://github.com/yeti-platform/yeti)** | Your Everyday Threat Intelligence. | Active |
-| **[IntelMQ](https://github.com/certtools/intelmq)** | Solution for CERTs processing security data. | Active |
-
----
-
-## 🔒 VPN/Proxy & Anonymity
+## 🔒 VPN, Proxy & SIEM
 
 | Tool | Description | Status |
 | :--- | :--- | :--- |
 | **[Tor](https://github.com/torproject/tor)** | Anonymity network. | Active |
-| **[ProxyChains](https://github.com/haad/proxychains)** | Redirect connections through proxy servers. | Active |
+| **[ProxyChains](https://github.com/haad/proxychains)** | Proxy redirector. | Active |
+| **[Wazuh](https://github.com/wazuh/wazuh)** | Security monitoring. | Active |
+| **[Elastic](https://github.com/elastic/security-docs)** | Security analytics. | Active |
 
 ---
 
-## 📊 Log Analysis & SIEM
-
-| Tool | Description | Status |
-| :--- | :--- | :--- |
-| **[Wazuh](https://github.com/wazuh/wazuh)** | Open source security monitoring. | Active |
-| **[Elastic Security](https://github.com/elastic/security-docs)** | Security analytics. | Active |
-| **[Splunk](https://github.com/splunk)** | Data analysis and visualization. | Active |
-| **[Graylog](https://github.com/Graylog2/graylog2-server)** | Log management. | Active |
-
----
-
-## 📝 Pentest Reporting
+## 📝 Reporting & Documentation
 
 | Tool | Description | Status |
 | :--- | :--- | :--- |
 | **[APTRS](https://github.com/APTRS/APTRS)** | Automated reporting. | Active |
-| **[FACTION](https://github.com/factionsecurity/faction)** | OWASP pentesting report generation. | Active |
-| **[PeTeReport](https://github.com/1modm/petereport)** | Penetration test report tool. | Active |
-| **[WriteHat](https://github.com/blacklanternsecurity/writehat)** | Pentest reporting tool (Markdown → PDF). | Active |
+| **[PeTeReport](https://github.com/1modm/petereport)** | Penetration test report. | Active |
 
 ---
 
@@ -527,63 +420,29 @@ We don't do "abandonware". Everything here is:
 | **[ART](https://github.com/Trusted-AI/adversarial-robustness-toolbox)** | Adversarial Robustness Toolbox. | Active |
 | **[SecML-Torch](https://github.com/pralab/secml-torch)** | Deep learning evaluation. | Active |
 | **[TextAttack](https://github.com/QData/TextAttack)** | NLP adversarial attacks. | Active |
-| **[Cyber Security ML Toolbox](https://github.com/wszhs/Cyber-Security-ML-Toolbox)** | Adversarial ML for security. | Active |
 
 ---
 
-## 🐚 Reverse Shell & Webshell
+## 🐚 Shells & Post-Exploitation
 
 | Tool | Description | Status |
 | :--- | :--- | :--- |
-| **[Reverse Shell Generator](https://github.com/0dayCTF/reverse-shell-generator)** | Hosted reverse shell generator. | Active |
-| **[RevShellGen](https://github.com/t0thkr1s/revshellgen)** | Reverse shell generator with encoding. | Active |
+| **[RevShellGen](https://github.com/t0thkr1s/revshellgen)** | Shell generator. | Active |
 | **[HoaxShell](https://github.com/t3l3machus/hoaxshell)** | Windows reverse shell. | Active |
-| **[Webshell-CLI](https://github.com/qtc-de/webshell-cli)** | Command line interface for webshells. | Active |
+| **[LinPEAS](https://github.com/carlospolop/PEASS-ng)** | Linux privesc script. | Active |
+| **[WinPEAS](https://github.com/carlospolop/PEASS-ng)** | Windows privesc script. | Active |
+| **[Pupy](https://github.com/n1nj4sec/pupy)** | Cross-platform C2. | May 2025 |
+| **[GraphRunner](https://github.com/dafthack/GraphRunner)** | MS Graph API post-exploit. | Active |
 
 ---
 
-## ⬆️ Privilege Escalation
+<div align="center">
 
-| Tool | Description | Status |
-| :--- | :--- | :--- |
-| **[LinPEAS](https://github.com/carlospolop/PEASS-ng)** | Linux privilege escalation awesome script. | Active |
-| **[WinPEAS](https://github.com/carlospolop/PEASS-ng)** | Windows privilege escalation awesome script. | Active |
-| **[Linux Smart Enumeration](https://github.com/diego-treitos/linux-smart-enumeration)** | Linux enumeration tool. | Active |
-| **[Offensive Linux Privilege Escalation](https://github.com/InfoSecWarrior/Offensive-Linux-Privilege-Escalation)** | Linux privesc techniques. | Feb 2025 |
-
----
-
-## 🔗 Post-Exploitation
-
-| Tool | Description | Status |
-| :--- | :--- | :--- |
-| **[Pupy](https://github.com/n1nj4sec/pupy)** | Cross-platform post-exploitation C2. | May 2025 |
-| **[GraphRunner](https://github.com/dafthack/GraphRunner)** | Post-exploitation for MS Graph API. | Active |
-| **[GraphSpy](https://github.com/RedByte1337/GraphSpy)** | Initial access and post-exploitation for Office365. | Active |
-| **[SharpStrike](https://github.com/iomoath/SharpStrike)** | C# post-exploitation using WMI/CIM. | Active |
-| **[Cable](https://github.com/logangoins/Cable)** | .NET toolkit for Active Directory. | Aug 2024 |
-
----
-
-## 📚 Resources & Wordlists
-
-| Resource | Description | Link |
-| :--- | :--- | :--- |
-| **[SecLists](https://github.com/danielmiessler/SecLists)** | Collection of lists for security assessments. | GitHub |
-| **[PayloadsAllTheThings](https://github.com/swisskyrepo/PayloadsAllTheThings)** | Useful payloads and bypasses. | GitHub |
-| **[FuzzDB](https://github.com/fuzzdb-project/fuzzdb)** | Dictionary of attack patterns. | GitHub |
-| **[HackTricks](https://github.com/HackTricks-wiki/hacktricks)** | Wiki-book with hacking tricks. | GitHub |
-
----
-
-
-&lt;div align="center"&gt;
-
-&lt;br/&gt;
+<br/>
 
 **LEGAL DISCLAIMER**
-&lt;br/&gt;
+<br/>
 *This repository is for educational purposes and authorized security research only.*
 *Do not use these tools on systems you do not own or have permission to test.*
 
-&lt;/div&gt;
+</div>
